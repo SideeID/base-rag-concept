@@ -57,7 +57,9 @@ Hasil pencarian berdasarkan **cosine similarity** divisualisasikan untuk menunju
 ## 🔬 Penjelasan Perhitungan Cosine Similarity
 Sistem menggunakan **cosine similarity** untuk mengukur kedekatan vektor embedding:
 
-\[ \text{Cosine Similarity} = \frac{A \cdot B}{||A|| \times ||B||} \]
+```math
+\text{Cosine Similarity} = \frac{A \cdot B}{||A|| \times ||B||}
+```
 
 Dimana:
 - \( A \) dan \( B \) adalah vektor embedding dari teks.
@@ -73,7 +75,9 @@ similarity = cosine_similarity([query_embedding], document_embeddings)[0]
 ## 📊 Visualisasi Euclidean Distance
 Selain cosine similarity, proyek ini juga menampilkan **Euclidean Distance** untuk membandingkan vektor embedding:
 
-\[ d(A, B) = \sqrt{\sum_{i=1}^{n} (A_i - B_i)^2} \]
+```math
+d(A, B) = \sqrt{\sum_{i=1}^{n} (A_i - B_i)^2}
+```
 
 Berikut adalah visualisasi jarak Euclidean antara dua vektor:
 
