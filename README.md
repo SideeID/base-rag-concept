@@ -1,4 +1,4 @@
-# RAG-EmbedVis: Retrieval-Augmented Generation with Embedding Visualization
+# RAG Base Concept
 
 ## 📌 Deskripsi
 Proyek ini mengimplementasikan **Retrieval-Augmented Generation (RAG)** menggunakan **embedding-based retrieval** dengan model transformer. Selain melakukan pencarian semantik berbasis **cosine similarity**, proyek ini juga menyediakan **visualisasi embedding** untuk memahami perbedaan dan hubungan antar vektor dokumen.
