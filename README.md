@@ -62,14 +62,34 @@ Sistem menggunakan **cosine similarity** untuk mengukur kedekatan vektor embeddi
 ```
 
 Dimana:
-- \( A \) dan \( B \) adalah vektor embedding dari teks.
-- \( A \cdot B \) adalah **dot product** antara kedua vektor.
-- \( ||A|| \) dan \( ||B|| \) adalah panjang (magnitude) masing-masing vektor.
+- $A$ dan $B$ adalah vektor embedding dari teks.
+- $A \cdot B$ adalah **dot product** antara kedua vektor.
+- $||A||$ dan $||B||$ adalah panjang (magnitude) masing-masing vektor.
 
 Implementasi dalam Python menggunakan **scikit-learn**:
 ```python
 from sklearn.metrics.pairwise import cosine_similarity
 similarity = cosine_similarity([query_embedding], document_embeddings)[0]
+```
+
+## 🔢 Perhitungan Dot Product
+Dot product dari dua vektor \( A \) dan \( B \) dihitung sebagai berikut:
+
+```math
+A \cdot B = \sum_{i=1}^{n} A_i B_i
+```
+
+Dimana:
+- $A_i$ dan $B_i$ adalah komponen ke- $i$ dari masing-masing vektor.
+- $n$ adalah jumlah dimensi vektor.
+
+Implementasi dalam Python:
+```python
+import numpy as np
+A = np.array([1, 2, 3])
+B = np.array([4, 5, 6])
+dot_product = np.dot(A, B)
+print(dot_product)  # Output: 32
 ```
 
 ## 📊 Visualisasi Euclidean Distance
