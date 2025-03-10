@@ -5,9 +5,13 @@ Proyek ini mengimplementasikan **Retrieval-Augmented Generation (RAG)** mengguna
 
 ## 🚀 Fitur
 ✅ **Ekstraksi embedding teks** menggunakan model transformer.
+
 ✅ **Pencarian semantik** berbasis **cosine similarity**.
+
 ✅ **Visualisasi embedding** dalam bentuk heatmap dan plot garis.
+
 ✅ **Perbandingan embedding query vs hasil retrieval**.
+
 ✅ **Visualisasi Euclidean Distance** antar vektor.
 
 ## 🏗️ Struktur Proyek
